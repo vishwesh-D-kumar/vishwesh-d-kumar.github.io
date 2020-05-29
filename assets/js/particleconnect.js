@@ -19,8 +19,12 @@ function mouseClicked()
 
 function setup()
 {
-    
-    canvas=createCanvas(windowWidth, windowHeight);
+    var body = document.body,
+        html = document.documentElement;
+
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                           html.clientHeight, html.scrollHeight, html.offsetHeight );
+    canvas=createCanvas(windowWidth, height);
     canvas.position(0,0);
     canvas.style('z-index','-1');
     for(var i = 0 ; i < 70; i++)
@@ -31,7 +35,8 @@ function setup()
 
 function draw()
 {
-    background("#ECFF33");
+    // background("#ECFF33");
+    background(255);
     for (var i = 0; i < particleArray.length; i++)
     {
         particleArray[i].move();
