@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting this website up[Animations Inluded]!
+title: Setting this website up [Animations Included]!
 ---
 
 I made this website in under 2 hours , with no previous knowledge of javascript . I am outlining the steps for the same for all others , who all want a quick start!
@@ -14,7 +14,7 @@ Steps :
 3. The following changes were made in the /_layouts/default.html file (as I wanted the changes in all webpages , and all pages use default.html) , for using the p5.js library (which renders the animations). 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-<script src="{{ base.url | prepend: site.url }}/assets/js/myjsfile.js">
+<script src="{{ base.url | prepend: site.url }}/assets/js/myjsfile.js"></script>
 ```
 Add your js file in the path /assets/js/myfile.js.This will be the canvas used.
 Add the following to the setup() function , to convert your canvas to a background!
