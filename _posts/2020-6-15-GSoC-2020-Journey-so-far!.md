@@ -4,9 +4,12 @@ title: GSoC 2020 , my journey so far!
 ---
 
 In March'20 , I applied for [GSoC](https://summerofcode.withgoogle.com/) under the organization of [CCExtractor Development](https://summerofcode.withgoogle.com/organizations/5176609797046272/).
-My proposal got accepted on May 4th ,and thats when my journey began!
+My proposal got accepted on May 4th ,and thats when my journey began!.
 
 You can read more about my project decription [here](https://summerofcode.withgoogle.com/projects/#5888598286532608) 
+
+I would like to thank my mentor Carlos for selecting this project , and helping me through it.The CCExtractor communtiy has helped me 
+get a clear idea of my project since the proposal phase , which has been an immense help during the current phase. 
 
 In this post I'm going to be highlighting what I've accomplished so far , and
 what all I've learnt so far!
